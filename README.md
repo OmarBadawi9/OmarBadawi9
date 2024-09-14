@@ -19,9 +19,8 @@ Welcome to my GitHub profile! I specialize in building and deploying AI models, 
 - **Deep Learning Frameworks**: TensorFlow, Keras
 - **Computer Vision**: OpenCV, scikit-image
 - **Hardware Platforms**: Nvidia Jetson
-- **Version Control**: Git, GitHub
 - **Web**: Html, Css
-
+- **Version Control**: Git, GitHub
 ---
 
 ### 🚀 **Projects**
