@@ -36,7 +36,7 @@ Welcome to my GitHub profile! I specialize in building and deploying AI models, 
 ---
 
 ### 📊 **GitHub Stats**
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=OmarBadawi6&show_icons=true&theme=radical)
 
 ---
 
