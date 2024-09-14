@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Engineer - GitHub Profile</title>
     <style>
-        body {
+        body { 
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
             color: #333;
