@@ -70,18 +70,78 @@
         }
 
         .skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
 
-        .skills span {
-            background-color: #007acc;
-            color: #fff;
-            padding: 8px 12px;
-            border-radius: 5px;
-            font-size: 14px;
+    .skills span {
+        background-color: #007acc;
+        color: #fff;
+        padding: 8px 12px;
+        border-radius: 5px;
+        font-size: 14px;
+        opacity: 0;  /* Initially hidden */
+        transform: translateY(20px); /* Move down initially */
+        animation: fadeInSkills 1s ease forwards; /* Fade-in animation */
+    }
+
+    /* Keyframes for fade-in and slide-up effect */
+    @keyframes fadeInSkills {
+        to {
+            opacity: 1; /* Fully visible */
+            transform: translateY(0); /* Slide-up to original position */
         }
+    }
+
+    /* Stagger the animation for each skill */
+    .skills span:nth-child(1) {
+        animation-delay: 0.2s;
+    }
+
+    .skills span:nth-child(2) {
+        animation-delay: 0.4s;
+    }
+
+    .skills span:nth-child(3) {
+        animation-delay: 0.6s;
+    }
+
+    .skills span:nth-child(4) {
+        animation-delay: 0.8s;
+    }
+
+    .skills span:nth-child(5) {
+        animation-delay: 1s;
+    }
+
+    .skills span:nth-child(6) {
+        animation-delay: 1.2s;
+    }
+
+    .skills span:nth-child(7) {
+        animation-delay: 1.4s;
+    }
+
+    .skills span:nth-child(8) {
+        animation-delay: 1.6s;
+    }
+
+    .skills span:nth-child(9) {
+        animation-delay: 1.8s;
+    }
+
+    .skills span:nth-child(10) {
+        animation-delay: 2s;
+    }
+
+    .skills span:nth-child(11) {
+        animation-delay: 2.2s;
+    }
+
+    .skills span:nth-child(12) {
+        animation-delay: 2.4s;
+    }
 
         /* Footer */
         footer {
